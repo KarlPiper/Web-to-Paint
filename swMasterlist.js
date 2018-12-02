@@ -10478,7 +10478,7 @@ var swObj = [{
   "1746": {
     "name": "Test Colour",
     "retailer": "Sherwin Williams",
-    "code": "0000ff"
+    "code": "0000ff",
     "number": "#0000FF"
   }
 }];
