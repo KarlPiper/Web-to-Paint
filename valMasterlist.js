@@ -68,7 +68,8 @@ var valObj = [{
       "number": "VR007B",
       "collection": "Vibrant Reds",
       "retailer": "ace",
-      "code": "rgb(240, 138, 100)"
+      "code": "rgb(240, 138, 100)",
+      "dupe": ["2002-1B", "V009-3"]
     },
     "10": {
       "name": "Melon Punch",
@@ -315,7 +316,8 @@ var valObj = [{
       "number": "VR010B",
       "collection": "Tropical Oranges",
       "retailer": "ace",
-      "code": "rgb(254, 178, 79)"
+      "code": "rgb(254, 178, 79)",
+      "dupe": ["2008-1B", "V014-2"]
     },
     "9": {
       "name": "Mango Salsa",
@@ -590,7 +592,8 @@ var valObj = [{
       "number": "VR015D",
       "collection": "Sunny Yellows",
       "retailer": "ace",
-      "code": "rgb(226, 228, 143)"
+      "code": "rgb(226, 228, 143)",
+      "dupe": ["6008-9B", "V057-2"]
     },
     "12": {
       "name": "Bonjour",
@@ -1175,7 +1178,8 @@ var valObj = [{
       "number": "VR025A",
       "collection": "Oceanic Blues",
       "retailer": "ace",
-      "code": "rgb(10, 133, 169)"
+      "code": "rgb(10, 133, 169)",
+      "dupe": ["5002-10C", "V031-3"]
     },
     "27": {
       "name": "Blue Jay Crest",
@@ -1995,7 +1999,8 @@ var valObj = [{
       "number": "VR040E",
       "collection": "Golden Yellows",
       "retailer": "ace",
-      "code": "rgb(242, 225, 188)"
+      "code": "rgb(242, 225, 188)",
+      "dupe": ["3007-6B", "V051-1"]
     },
     "1": {
       "name": "Sun Sparkle",
@@ -2249,7 +2254,8 @@ var valObj = [{
       "number": "VR073E",
       "collection": "Forest Greens",
       "retailer": "ace",
-      "code": "rgb(210, 207, 172)"
+      "code": "rgb(210, 207, 172)",
+      "dupe": ["6003-3B", "V095-1"]
     },
     "7": {
       "name": "Cool Cucumber",
@@ -2524,7 +2530,8 @@ var valObj = [{
       "number": "VR054D",
       "collection": "Coastal Blues",
       "retailer": "ace",
-      "code": "rgb(179, 223, 235)"
+      "code": "rgb(179, 223, 235)",
+      "dupe": ["5003-9B", "V068-2"]
     },
     "11": {
       "name": "Sailing on the Bay",
@@ -2715,7 +2722,8 @@ var valObj = [{
       "number": "VR058D",
       "collection": "Dusty Violets",
       "retailer": "ace",
-      "code": "rgb(202, 208, 233)"
+      "code": "rgb(202, 208, 233)",
+      "dupe": ["4004-9B", "V074-2"]
     },
     "2": {
       "name": "Delicate Shell",
@@ -2890,7 +2898,8 @@ var valObj = [{
       "number": "VR087B",
       "collection": "Dusty Violets",
       "retailer": "ace",
-      "code": "rgb(119, 126, 142)"
+      "code": "rgb(119, 126, 142)",
+      "dupe": ["4003-4B", "V111-5"]
     },
     "27": {
       "name": "Blue Fedora",
@@ -2904,7 +2913,8 @@ var valObj = [{
       "number": "VR059A",
       "collection": "Dusty Violets",
       "retailer": "ace",
-      "code": "rgb(100, 93, 121)"
+      "code": "rgb(100, 93, 121)",
+      "dupe": ["4001-6C", "V075-6"]
     },
     "29": {
       "name": "Purple Sunset",
@@ -3836,7 +3846,8 @@ var valObj = [{
       "number": "VR077B",
       "collection": "Green Neutrals",
       "retailer": "ace",
-      "code": "rgb(144, 164, 156)"
+      "code": "rgb(144, 164, 156)",
+      "dupe": ["5003-4A", "V099-5"]
     },
     "24": {
       "name": "Secret Mission",
@@ -3929,7 +3940,8 @@ var valObj = [{
       "number": "VR083E",
       "collection": "Blue Neutrals",
       "retailer": "ace",
-      "code": "rgb(212, 230, 235)"
+      "code": "rgb(212, 230, 235)",
+      "dupe": "P105"
     },
     "3": {
       "name": "Gauzy Calico",
@@ -4358,7 +4370,8 @@ var valObj = [{
       "number": "VR116A",
       "collection": "Violet Neutrals",
       "retailer": "ace",
-      "code": "rgb(109, 114, 124)"
+      "code": "rgb(109, 114, 124)",
+      "dupe": "V136-6"
     },
     "28": {
       "name": "Mesmerize",
@@ -4733,7 +4746,8 @@ var valObj = [{
       "number": "32-1B",
       "collection": "Warm Whites",
       "retailer": "ace",
-      "code": "rgb(232, 227, 215)"
+      "code": "rgb(232, 227, 215)",
+      "dupe": ["7006-16", "7002-3"]
     },
     "10": {
       "name": "Navy Bean",
@@ -4838,7 +4852,8 @@ var valObj = [{
       "number": "VR092D",
       "collection": "Warm Whites",
       "retailer": "ace",
-      "code": "rgb(209, 187, 176)"
+      "code": "rgb(209, 187, 176)",
+      "dupe": ["2001-10B", "V128-3"]
     },
     "25": {
       "name": "Apollo",
@@ -6272,7 +6287,8 @@ var valObj = [{
       "number": "3010-4",
       "collection": "Tropical Oranges",
       "retailer": "lowes",
-      "code": "rgb(177, 138, 82)"
+      "code": "rgb(177, 138, 82)",
+      "dupe": "3005-7A"
     },
     "79": {
       "name": "Camel Ride",
@@ -7860,7 +7876,8 @@ var valObj = [{
       "number": "5008-10C",
       "collection": "Oceanic Blues",
       "retailer": "lowes",
-      "code": "rgb(0, 150, 120)"
+      "code": "rgb(0, 150, 120)",
+      "dupe": "6001-10C"
     },
     "52": {
       "name": "Spa Green",
@@ -8021,7 +8038,8 @@ var valObj = [{
       "number": "5007-8C",
       "collection": "Oceanic Blues",
       "retailer": "lowes",
-      "code": "rgb(53, 113, 108)"
+      "code": "rgb(53, 113, 108)",
+      "dupe": "5009-7"
     },
     "75": {
       "name": "Artisan Green",
@@ -9357,7 +9375,8 @@ var valObj = [{
       "number": "2001-2B",
       "collection": "Crimson Reds",
       "retailer": "lowes",
-      "code": "rgb(251, 209, 197)"
+      "code": "rgb(251, 209, 197)",
+      "dupe": "2004-4B"
     },
     "9": {
       "name": "Crystal Coral",
@@ -13177,7 +13196,8 @@ var valObj = [{
       "number": "7005-17",
       "collection": "Cool Whites",
       "retailer": "lowes",
-      "code": "rgb(214, 220, 211)"
+      "code": "rgb(214, 220, 211)",
+      "dupe": "5003-1A"
     },
     "53": {
       "name": "Pale Linen",
@@ -13993,7 +14013,8 @@ var valObj = [{
       "number": "7001-4",
       "collection": "Orange Neutrals",
       "retailer": "lowes",
-      "code": "rgb(246, 229, 220)"
+      "code": "rgb(246, 229, 220)",
+      "dupe": "7001-12"
     },
     "1": {
       "name": "Perfection",
@@ -23586,7 +23607,8 @@ var valObj = [{
       "number": "V116-2",
       "collection": "Grays & Blacks",
       "retailer": "independent",
-      "code": "rgb(154, 160, 163)"
+      "code": "rgb(154, 160, 163)",
+      "dupe": "V113-2"
     },
     "18": {
       "name": "Tabby Cat Gray",
