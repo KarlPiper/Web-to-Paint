@@ -23781,7 +23781,10 @@ var valObj = [{
   },
   "63": {
     "0": {
-      "name": "Val Test Colour",
+      "name": "Test Colour",
+      "number": "#FF0000",
+      "collection": "Test Collection",
+      "retailer": "No One",
       "code": "rgb(255, 0, 0)"
     }
   }
