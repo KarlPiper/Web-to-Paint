@@ -1,0 +1,99 @@
+:root {
+	--text-main: #ccc;
+	--text-dark: #555;
+	--text-light: #eee;
+	--text-accent: darkorange;
+	--font-mono: "PT Mono", "Source Code Pro", "Anonymous Pro", "Inconsolata",
+		monospace;
+	--font-serif: "PT Serif", "Source Serif Pro", serif;
+	--font-sans: "PT Sans", "Open Sans", sans-serif;
+
+	--bg-main: #1d1f20;
+	--bg-dark: #000;
+	--bg-med: #36383f;
+	--bg-light: #adafbc;
+	--bg-accent: darkorange;
+}
+
+body {
+	background: var(--bg-main);
+	color: var(--text-main);
+	width: 100vw;
+	height: 100vh;
+	font-family: var(--font-sans);
+	font-size: 16px;
+	text-align: center;
+}
+#heading {
+	margin: 1em 0 1em;
+}
+h1 {
+	font-size: 2em;
+	margin-bottom: 0.2em;
+	font-weight: 900;
+}
+p {
+	margin-bottom: 0.5em;
+	line-height: 1.3;
+}
+em {
+	font-style: italic;
+}
+/* fuzzy match output */
+iframe {
+	width: 90vw;
+	margin: 1em auto 5vw;
+	box-shadow: 0 8px 25px var(--bg-dark);
+	display: block;
+	height: 100vh;
+}
+/* exact match output */
+#results {
+	box-sizing: border-box;
+	padding: 2em;
+	width: 90vw;
+	margin: 1em auto 5vw;
+	font-size: 1em;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+	background: var(--bg-med);
+	display: none;
+	line-height: 1.5;
+}
+
+card {
+	display: block;
+	width: 50%;
+	min-width: 15em;
+	text-align: left;
+	margin: 0 auto;
+}
+colour {
+	display: block;
+	width: 100%;
+	height: 20vw;
+	min-height: 15em;
+}
+card ul {
+	padding: 0.5em;
+	line-height: 1.3;
+	border-width: 1px;
+	border-style: solid;
+	border-top: none;
+}
+.exNumber {
+	font-family: var(--font-mono);
+}
+.exName {
+	font-weight: 700;
+}
+.funFact {
+	display: none;
+}
+card:first-of-type + card::before {
+	content: "—Alternate Names—";
+	display: block;
+	font-size:1.2em;
+	line-height:3;
+	font-style:italic;
+	text-align:center;
+}
