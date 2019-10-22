@@ -1,6 +1,7 @@
 // SW JSON thanks to codepen.io/banik/pen/PyQdVj
 // Valspar JSON scraped from askval.com/Colors by me
-// 5,124 total colours indexed
+// MIller data was openly available, how kind
+// ~7000 total colours indexed
 
 // define spectrum color picker
 $("#custom").spectrum({
@@ -12,12 +13,12 @@ $("#custom").spectrum({
 	chooseText: "Convert",
 	cancelText: "Clear"
 });
-// spectrum button submit
+// spectrum cancel
 $(".sp-cancel").on("click", function() {
 	$("#results, iframe").css("display", "none");
 	$("h1").text("Enter Your Colour");
 });
-// spectrum cancel
+// spectrum choose
 $(".sp-choose").on("click", function() {
 	var t = $("#custom").spectrum("get");
 	checkSources(t);
@@ -33,11 +34,14 @@ $(".sp-input").keypress(function(e) {
 // check all sources for matches
 var valExMatch = {};
 var swExMatch = {};
+var millerExMatch = {};
 function checkSources(t) {
 	if (searchValspar(t)) {
 		exactMatch(valExMatch);
 	} else if (searchSw(t)) {
 		exactMatch(swExMatch);
+	} else if (searchMiller(t)) {
+		exactMatch(millerExMatch);
 	} else {
 		fuzzyMatch(t);
 	}
@@ -53,6 +57,32 @@ function searchValspar(t) {
 			var currCode = inObj[i][j].code;
 			if (currCode === query) {
 				valExMatch = inObj[i][j];
+				return true;
+			}
+		}
+	}
+}
+// search "millerObj" in external javascript file
+function searchMiller(t) {
+	var query = t.toString();
+	var inObj = millerObj[0];
+	var colls = Object.keys(inObj).length;
+	for (var i = 0; i < colls; i++) {
+		var colours = Object.keys(inObj[i]).length;
+		for (var j = 0; j < colours; j++) {
+			var currCode = inObj[i][j].code;
+			var output = "";
+			$.each(currCode.split('rgb(')[1].split(')')[0].split(', '), function(i,v) {
+				if(i===0) {
+					output = output + 'rgb(' + Math.round(v);
+				} else if (i===1) {
+					output = output + ', ' + Math.round(v);
+				} else if (i===2) {
+					output = output + ', ' + Math.round(v) + ")";
+				}
+			});
+			if (output === query) {
+				millerExMatch = inObj[i][j];
 				return true;
 			}
 		}
